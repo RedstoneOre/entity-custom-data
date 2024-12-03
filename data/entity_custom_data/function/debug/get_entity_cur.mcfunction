@@ -1,0 +1,1 @@
+execute at @s run tellraw @p ["Cur:[",{"score":{"name":"@s","objective":"entity_custom_data.datacur.upp32b"}},", ",{"score":{"name":"@s","objective":"entity_custom_data.datacur.low32b"}},"]"]

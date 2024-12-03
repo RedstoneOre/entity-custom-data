@@ -1,0 +1,11 @@
+#Operation:Set(.special),Append(.special),Prepend(.special)
+
+#Get the data path
+function entity_custom_data:z_/getpath_by_entity
+#Set arguments
+$data modify storage entity_custom_data:temp args set value {v:$(data)}
+$data modify storage entity_custom_data:temp ex_path merge value $(path)
+data modify storage entity_custom_data:temp args.t set from storage entity_custom_data:temp ex_path.val
+data modify storage entity_custom_data:temp args.p set from storage entity_custom_data:result datapath.p
+$data modify storage entity_custom_data:temp args.o set value '$(op)'
+return run function entity_custom_data:z_/op/_set.special with storage entity_custom_data:temp args

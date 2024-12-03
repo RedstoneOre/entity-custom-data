@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": {
+      "bold": true,
+      "color": "#9f7f9f",
+      "font": "minecraft:uniform",
+      "text": "Allow other datapacks add custom data to entities without memory leak"
+    },
+    "pack_format": 7,
+    "supported_formats": [41, 65]
+  }
+}

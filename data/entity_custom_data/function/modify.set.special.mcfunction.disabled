@@ -1,0 +1,2 @@
+#Modify.set
+$return run function entity_custom_data:z_/op/set.special {data:$(data),path:$(path),op:set}

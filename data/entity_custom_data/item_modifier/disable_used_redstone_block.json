@@ -1,0 +1,51 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:coal_block"
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "ops": [
+      {
+        "op": "replace",
+        "source": "d",
+        "target": "entity_custom_data:origin_custom_data"
+      }
+    ],
+    "source": {
+      "type": "storage",
+      "source": "entity_custom_data:custom_data"
+    }
+  },
+  {
+    "function": "minecraft:set_contents",
+    "component": "container",
+    "entries": [
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:player_head",
+        "functions": [
+          {
+            "function": "minecraft:fill_player_head",
+            "entity": "this"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": [
+              {
+                "bold": true,
+                "color": "red",
+                "text": "CLEARER: "
+              },
+              {
+                "selector":"@s"
+              }
+            ],
+            "target": "item_name"
+          }
+        ]
+      }
+    ]
+  }
+]

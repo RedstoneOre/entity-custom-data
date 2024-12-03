@@ -1,0 +1,5 @@
+# THE POSITIONS
+  0 0 0 minecraft:block / minecraft:oak_sign
+  # No Storage
+  # Only Save Messages
+  0 1 0 minecraft:entity / (template)

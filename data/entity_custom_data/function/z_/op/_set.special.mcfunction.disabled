@@ -1,0 +1,2 @@
+$data modify storage entity_custom_data:temp op set value $(v)
+$return run data modify storage $(p).$(t) $(o) from storage entity_custom_data:temp op.val
