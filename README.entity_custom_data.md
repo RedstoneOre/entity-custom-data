@@ -129,8 +129,8 @@ Same as `data remove ... (The value)`
 
 # Use In Your Datapack
 + KEEP THE FILE `README.entity_custom_data.md` and `LICENSE`(you can rename it to `LICENSE.entity_custom_data.md`) while using this datapack
-+ Because of the limit of Minecraft,you need to merge the `/pack.mcmeta` and `/data/minecraft/` and add you namespace.
-+ If you want to use a newer version,you can just replace the namespace folder `entity_custom_data` without `/UPGRADE.md`
++ Because of the limit of Minecraft,you need to copy the contents in namespace `entity_custom_data` to your datapack and merge the function tags into your datapack
++ If you want to use a newer version,you can just replace the namespace folder `entity_custom_data`(follow `/UPGRADE.md` if it exists)
 
 
 ### [return to the top](#entity-custom-data---document)
