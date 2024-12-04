@@ -31,7 +31,6 @@ Using: **[READ_FIRST](#expressions)** [get](#get) [getpath](#getpath) [merge](#m
 |--------------:|------------------------------|--------------------------------------------------------------------------------------|
 | DataFrom      | the data from a existed path | String: `[ block <x> <y> <z> \| entity <selector> \| storage <name> ] <path:string>` |
 | DataPath      | express a data               | One of the following format: `{value:<value:object>}` `{from:<path:DataFrom>}`       |
-| GetPathFormat | the format of getpath result | One of `fullpath`,`jsontext`,`jsontext-child`,`split`                                                                  |
 | string        | normal string                | /                                                                                    |
 | int           | normal int value             | /                                                                                    |
 | object{}      | nbt object                   | `{...}`                                                                              |

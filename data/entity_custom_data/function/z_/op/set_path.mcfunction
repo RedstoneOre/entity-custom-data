@@ -1,4 +1,4 @@
-$say set_path $(data)
+# $say set_path $(data)
 data modify storage entity_custom_data:temp args set value {}
 $data modify storage entity_custom_data:temp merge_path set value $(data)
 execute if data storage entity_custom_data:temp merge_path.from run data modify storage entity_custom_data:temp args.vt set value 'from'
