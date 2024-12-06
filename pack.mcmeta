@@ -6,7 +6,7 @@
       "font": "minecraft:uniform",
       "text": "Allow other datapacks add custom data to entities without memory leak"
     },
-    "pack_format": 7,
+    "pack_format": 41,
     "supported_formats": [41, 65]
   }
 }

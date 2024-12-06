@@ -1,3 +1,6 @@
+# Check
+execute if data storage entity_custom_data:data {installed:0b} run return fail
+
 # Update once
 execute store result score time entity_custom_data.temp run time query gametime
 scoreboard players operation time entity_custom_data.temp %= delete_check.tick_p_1_time entity_custom_data.config

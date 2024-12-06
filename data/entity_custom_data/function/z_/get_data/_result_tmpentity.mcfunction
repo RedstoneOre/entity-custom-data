@@ -1,3 +1,4 @@
+# say Result: Tmpentity: @s
 function entity_custom_data:z_/get_data/_result
 tag @s remove entity_custom_data.temp
 scoreboard players operation storge_low32b entity_custom_data.temp = @s entity_custom_data.datacur.low32b

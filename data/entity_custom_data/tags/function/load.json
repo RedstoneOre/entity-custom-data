@@ -2,6 +2,7 @@
   "replace": true,
   "values": [
     "entity_custom_data:z_/init",
-    "entity_custom_data:z_/get_data/init"
+    "entity_custom_data:z_/get_data/init",
+    "entity_custom_data:z_/start"
   ]
 }
