@@ -1,4 +1,4 @@
-say delete
+# say delete
 #if no element,exit
 execute if score delete.cur.end.low entity_custom_data.data matches 0 if score delete.cur.end.upp entity_custom_data.data matches 0 run return fail
 #end-=1
