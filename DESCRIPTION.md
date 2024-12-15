@@ -4,10 +4,12 @@
 ```mcfunction
 execute as <entity> run function entity_custom_data:<operation> <arguments>
 ```
++ See `README.md` or `/function entity_custom_data:control`
 
 #### **Support Operations**
 `get.print` `get.run` `get.save` `merge` `modify.append` `modify.insert` `modify.merge` `modify.prepend` `modify.set` `remove`
 + Support for 2⁶² entities is allowed to have custom data.
++ Run **_`/function entity_custom_data:control`_** to open the _control panel_ for help
 
 #### **Auto Delete**
 + Auto delete the data of the dead entity(exlude player)
