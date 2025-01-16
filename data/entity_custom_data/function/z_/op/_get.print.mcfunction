@@ -1,0 +1,1 @@
+$tellraw @p [{"with":[{"selector":"@s"},{"color":"yellow","nbt":"$(f).$(t)","storage":"entity_custom_data:custom_data"}],"translate":"commands.data.entity.query"}," ",{"color":"gray","clickEvent":{"action":"run_command","value":"/data get storage $(p).$(t)"},"text":"[BETTER OUTPUT]","underlined":true}]
